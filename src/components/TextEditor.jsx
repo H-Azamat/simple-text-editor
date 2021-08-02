@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { createEditor } from 'slate'
 import { Slate, withReact, Editable } from 'slate-react'
 import { Leaf } from './Leaf'
@@ -6,7 +6,7 @@ import { CodeElement } from './CodeElement'
 import { DefaultElement } from './DefaultElement'
 import { CustomEditor } from './CustomEditor'
 
-export const TextEditor = () => {
+export const TextEditor = ({ getEditor }) => {
 
     const existingValue = JSON.parse(localStorage.getItem('content'))
 
@@ -70,6 +70,11 @@ export const TextEditor = () => {
 
         }
     } 
+
+    useEffect(() => {
+        console.log(editor)
+        getEditor(editor)
+    }, [])
 
     return(
         <Slate
