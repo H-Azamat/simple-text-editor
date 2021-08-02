@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/simple-text-editor/static/css/main.63577a61.chunk.css",
+    "main.js": "/simple-text-editor/static/js/main.34a337b5.chunk.js",
+    "main.js.map": "/simple-text-editor/static/js/main.34a337b5.chunk.js.map",
+    "runtime-main.js": "/simple-text-editor/static/js/runtime-main.897a6579.js",
+    "runtime-main.js.map": "/simple-text-editor/static/js/runtime-main.897a6579.js.map",
+    "static/js/2.5c284752.chunk.js": "/simple-text-editor/static/js/2.5c284752.chunk.js",
+    "static/js/2.5c284752.chunk.js.map": "/simple-text-editor/static/js/2.5c284752.chunk.js.map",
+    "index.html": "/simple-text-editor/index.html",
+    "static/css/main.63577a61.chunk.css.map": "/simple-text-editor/static/css/main.63577a61.chunk.css.map",
+    "static/js/2.5c284752.chunk.js.LICENSE.txt": "/simple-text-editor/static/js/2.5c284752.chunk.js.LICENSE.txt",
+    "static/media/bold.d2bc3533.svg": "/simple-text-editor/static/media/bold.d2bc3533.svg",
+    "static/media/code.60b542e5.svg": "/simple-text-editor/static/media/code.60b542e5.svg",
+    "static/media/italic.4f288d37.svg": "/simple-text-editor/static/media/italic.4f288d37.svg",
+    "static/media/strikethrough.ec1de9a8.svg": "/simple-text-editor/static/media/strikethrough.ec1de9a8.svg",
+    "static/media/underline.b204b55b.svg": "/simple-text-editor/static/media/underline.b204b55b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.897a6579.js",
+    "static/js/2.5c284752.chunk.js",
+    "static/css/main.63577a61.chunk.css",
+    "static/js/main.34a337b5.chunk.js"
+  ]
+}
