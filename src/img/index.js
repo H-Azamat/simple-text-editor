@@ -1,0 +1,5 @@
+export { default as bold } from './bold.svg'
+export { default as italic } from './italic.svg'
+export { default as code } from './code.svg'
+export { default as strikeThrough } from './strikethrough.svg'
+export { default as underline } from './underline.svg'
